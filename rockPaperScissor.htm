@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <!-- This is the font family #Rowdies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Merriweather:wght@400;700&family=Rowdies:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+        <!-- CSS file -->
+    <link rel="stylesheet" href="rockPaperScissor.css">
+</head>
+
+<body>
+
+    <div id="heading">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+
+    <div class="discs">
+        <button class="rock">
+            <img src="Images/rock.png" alt="Rock" class="rock_img">
+        </button>
+        <button class="paper">
+            <img src="Images/paper.png" alt="Paper" class="paper_img">
+        </button>
+        <button class="scissors">
+            <img src="Images/scissors.png" alt="Scissors" class="scissors_img">
+        </button>
+    </div>
+
+    <div class="container">    
+        <div id="player">
+            <h2 class="playerCount">0</h2>
+            <h2>Player</h2>
+        </div>
+        
+        <div id="computer">
+            <h2 class="computerCount">0</h2>
+            <h2>Computer</h2>
+        </div>
+    </div>
+
+    <div class="msg">
+        Pick your move
+    </div>
+
+    <div id="reset">
+        <button class="reset">Reset</button>
+    </div>
+        
+    <!-- JavaScript Linkage -->
+    <script src="rockPaperScissor.js"></script>
+</body>
+
+</html>
